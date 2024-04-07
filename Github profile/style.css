@@ -1,0 +1,35 @@
+body{
+    height:100vh;
+    body:100vw;
+}
+.container{
+    display:flex;
+    width:40%;
+    margin:auto;
+    justify-content: space-around;
+}
+.container >input{
+     width:60%;
+    padding:8px;
+}
+.container > button{
+    border-radius: 4px;
+}
+#value_shower{
+   width: fit-content;
+    border:2px solid rgb(235, 230, 230); 
+    border-radius: 3px ;
+    padding:8px;
+    margin: 26px auto;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img >img {
+    width:200px;
+}
+.personal_info{
+    font-size:20px;
+}
