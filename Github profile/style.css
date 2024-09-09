@@ -4,16 +4,33 @@ body{
 }
 .container{
     display:flex;
-    width:40%;
+    width:50%;
     margin:auto;
     justify-content: space-around;
 }
+.header > h2{
+    font-size: 3rem;
+    font-weight: bold;
+    display: inline-block;
+    border-bottom: 3px solid black;
+}
+.header{
+    text-align: center;
+}
 .container >input{
      width:60%;
-    padding:8px;
+     font-size: 1.1rem;
+    padding:14px;
+}
+.container >input::placeholder{
+    font-size: 1.2rem;
 }
 .container > button{
     border-radius: 4px;
+    width:20%;
+    font-size: 1.2rem;
+    font-weight: 300;
+     padding:12px;
 }
 #value_shower{
    width: fit-content;
